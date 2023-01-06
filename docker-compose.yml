@@ -1,0 +1,7 @@
+version: '3'
+services:
+  website:
+    image: obyrned/fastapi-patrickloeber
+    ports:
+      - "8000:8000"
+    restart: always
